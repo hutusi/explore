@@ -14,7 +14,7 @@ export const CardShelf = () => {
           className="col-span-12 h-[300px] sm:col-span-4"
           key={index}
           isPressable
-          onPress={() => console.log("item pressed")}
+          onPress={() => window.open(item.url, "_blank")}
         >
           <CardHeader className="absolute top-1 z-10 flex-col !items-start bg-gray-800/50">
             <p className="text-tiny font-bold uppercase text-white/60">
