@@ -1,3 +1,5 @@
+import { Pagination } from "@nextui-org/react";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
