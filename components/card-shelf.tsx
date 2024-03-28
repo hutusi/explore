@@ -9,7 +9,7 @@ const contents = contentsConfig.items;
 export const CardShelf = () => {
   return (
     <div className="grid max-w-[900px] grid-cols-12 grid-rows-2 gap-2 px-8">
-      {contents.map((item, index) => (
+      {contents.reverse().map((item, index) => (
         <Card
           className="col-span-12 h-[300px] sm:col-span-4"
           key={index}
