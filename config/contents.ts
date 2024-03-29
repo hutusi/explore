@@ -4,7 +4,7 @@ export type ContentsConfig = typeof contentsConfig;
 
 export const contentsConfig = {
   paginate: 6,
-  categories: { article: "文章", video: "视频" },
+  categories: { article: "文章", video: "视频", podcast: "播客" },
   items: [
     {
       title: "改变世界的一次代码提交",
@@ -73,7 +73,7 @@ export const contentsConfig = {
       website: "https://zhenghe-md.github.io/blog/",
       source: "ZhengHe",
       category: "article",
-      tags: "Git,Startup",
+      tags: "Git,创业",
       date: "2024-03-26 21:38:00 +0800",
     },
     {
@@ -117,6 +117,21 @@ export const contentsConfig = {
       category: "article",
       tags: "学习",
       date: "2024-03-28 21:45:00 +0800",
+    },
+    {
+      title:
+        "Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk, Ilya, Power & AGI Audio Player",
+      subtitle: "",
+      abstract: "",
+      image:
+        "https://lexfridman.com/wordpress/wp-content/uploads/2019/03/lex_fridman_deep_learning_course.jpg",
+      author: "Lex Fridman",
+      url: "https://lexfridman.com/sam-altman-2",
+      website: "https://lexfridman.com",
+      source: "lexfridman.com",
+      category: "podcast",
+      tags: "OpenAI,AI,创业",
+      date: "2024-03-29 20:36:00 +0800",
     },
   ],
 };
