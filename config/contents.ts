@@ -1,6 +1,7 @@
 import { subtitle } from "@/components/primitives";
 
 export type ContentsConfig = typeof contentsConfig;
+export type ContentsItemsConfig = typeof contentsConfig.items;
 
 export const contentsConfig = {
   paginate: 6,

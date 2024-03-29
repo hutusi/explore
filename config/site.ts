@@ -7,16 +7,29 @@ export const siteConfig = {
   description: "Explore useful resources.",
   navItems: [
     {
-      label: "Home",
+      label: "All",
       href: "/",
+      category: "all",
     },
     {
-      label: "Blog",
-      href: "https://hutusi.com/",
+      label: "Articles",
+      href: "/articles",
+      category: "article",
+    },
+    {
+      label: "Videos",
+      href: "/videos",
+      category: "video",
+    },
+    {
+      label: "Podcasts",
+      href: "/podcasts",
+      category: "podcast",
     },
     {
       label: "About",
-      href: "https://hutusi.com/about",
+      href: "/about",
+      category: "about",
     },
   ],
   navMenuItems: [
