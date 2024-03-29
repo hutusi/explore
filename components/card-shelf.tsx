@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Card, CardHeader, Image, Pagination } from "@nextui-org/react";
 
 import { contentsConfig } from "@/config/contents";
-const contents = contentsConfig.items;
+const contents = contentsConfig.items.reverse();
 
 export const CardShelf = () => {
   const [page, setPage] = useState(1);
@@ -15,7 +15,6 @@ export const CardShelf = () => {
     <div>
       <div className="grid max-w-[900px] grid-cols-12 grid-rows-2 gap-2 px-8">
         {contents
-          // .reverse()
           .slice(
             (page - 1) * contentsConfig.paginate,
             page * contentsConfig.paginate,
