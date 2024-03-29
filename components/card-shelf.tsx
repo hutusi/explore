@@ -7,14 +7,11 @@ import { Card, CardHeader, Image, Pagination } from "@nextui-org/react";
 import { contentsConfig, ContentsItemsConfig } from "@/config/contents";
 
 export interface Props {
-  heading: string;
+  contents: ContentsItemsConfig;
 }
 
 export const CardShelf = (props: Props) => {
-  let contents: ContentsItemsConfig = contentsConfig.items.reverse();
-  if (props.heading != "all") {
-    contents = contents.filter((item) => item.category == props.heading);
-  }
+  const contents = props.contents;
 
   const [page, setPage] = useState(1);
   const totalPages = Math.ceil(contents.length / contentsConfig.paginate);
