@@ -4,7 +4,7 @@
 <summary><strong>README 中文版本</strong></summary>
 <div>
 
-这是一个探索互联网优质内容的项目，使用 [Next.js](https://nextjs.org/) 技术构建而成。
+这是一个探索互联网优质内容的项目，使用 [Next.js](https://nextjs.org/) 技术构建而成。欢迎提供优质资源线索：Fork此仓库并参考原文修改 [/config/contents.ts](/config/contents.ts)，然后提交PR，我将检查并处理PR合并。
 
 ## 开发准备
 
@@ -53,7 +53,9 @@ https://github.com/hutusi/explore/blob/main/config/contents.ts
 </div>
 </details>
 
-This is a [Next.js](https://nextjs.org/) project, to explore quality contents on the Internet.
+<br />
+
+This is a [Next.js](https://nextjs.org/) project, to explore the good things on the Internet. Welcome to submit quality resources via PR: Fork this repository and edit [/config/contents.ts](/config/contents.ts), then send me a pull request, I will finish the rest things.
 
 ## Getting Started
 
