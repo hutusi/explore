@@ -84,4 +84,7 @@ export const siteConfig = {
     twitter: "https://twitter.com/hutusi",
     sponsor: "https://github.com/hutusi/explore",
   },
+  images: {
+    card: "/images/card-bg.jpg",
+  },
 };

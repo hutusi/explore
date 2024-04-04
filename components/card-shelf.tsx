@@ -4,6 +4,7 @@ import React from "react";
 import { useState } from "react";
 import { Card, CardHeader, Image, Pagination } from "@nextui-org/react";
 
+import { siteConfig } from "@/config/site";
 import { contentsConfig, ContentsItemsConfig } from "@/config/contents";
 
 export interface Props {
@@ -43,7 +44,9 @@ export const CardShelf = (props: Props) => {
                 removeWrapper
                 alt={item.title}
                 className="z-0 h-full w-full object-cover"
-                src={item.image}
+                src={
+                  item.image.trim() == "" ? siteConfig.images.card : item.image
+                }
               />
             </Card>
           ))}
