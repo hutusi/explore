@@ -27,6 +27,16 @@ export const siteConfig = {
       category: "podcast",
     },
     {
+      label: "Websites",
+      href: "/websites",
+      category: "website",
+    },
+    {
+      label: "Tools",
+      href: "/tools",
+      category: "tool",
+    },
+    {
       label: "About",
       href: "/about",
       category: "about",
@@ -52,6 +62,16 @@ export const siteConfig = {
       label: "Podcasts",
       href: "/podcasts",
       category: "podcast",
+    },
+    {
+      label: "Websites",
+      href: "/websites",
+      category: "website",
+    },
+    {
+      label: "Tools",
+      href: "/tools",
+      category: "tool",
     },
     {
       label: "About",

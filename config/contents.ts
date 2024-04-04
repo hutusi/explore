@@ -5,7 +5,13 @@ export type ContentsItemsConfig = typeof contentsConfig.items;
 
 export const contentsConfig = {
   paginate: 6,
-  categories: { article: "文章", video: "视频", podcast: "播客" },
+  categories: {
+    article: "文章",
+    video: "视频",
+    podcast: "播客",
+    website: "网站",
+    tool: "工具",
+  },
   items: [
     {
       title: "改变世界的一次代码提交",
